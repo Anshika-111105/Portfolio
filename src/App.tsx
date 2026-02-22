@@ -1,7 +1,5 @@
 import React from 'react';
 import './index.css';
-
-// 1. IMPORT ALL IMAGES HERE
 import dubaiAchievement from './assets/dubai-genai.png';
 import profileImg from './assets/profile.png';
 import linkedinIcon from './assets/linkedin.png';
@@ -124,7 +122,7 @@ const App: React.FC = () => {
                 <img src={veridiaLogo} alt="Veridio.io" className="company-logo" />
                 <div className="experience-title">
                   <h3>Web Developer Intern</h3>
-                  <h4>Veridio.io</h4>
+                  <h4>Veridia.io</h4>
                   <div className="experience-meta">
                     <span className="duration">June 2025 – July 2025</span>
                     <span className="mode">Remote</span>
