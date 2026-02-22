@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 
 // 1. IMPORT ALL IMAGES HERE
+import dubaiAchievement from './assets/dubai-genai.png';
 import profileImg from './assets/profile.png';
 import linkedinIcon from './assets/linkedin.png';
 import githubIcon from './assets/github.png';
@@ -11,20 +12,19 @@ import bluestockLogo from './assets/bluestock.jpeg';
 import veridiaLogo from './assets/veridia.jpeg';
 import unixShellImg from './assets/unix-shell.png';
 import emailSchedularImg from './assets/email-schedular.png';
-import authSystemImg from './assets/2FA.png';
-import cloudSimImg from './assets/cloudSim.png';
+import authSystemImg from './assets/2fa.png';
+import cloudSimImg from './assets/cloudsim.png';
 import awsCert from './assets/aws.png';
-import promptCert from './assets/Prompt_Engg.png';
-import nlpCert from './assets/NLP.png';
-import aiAgentCert from './assets/AI_Agent.png';
+import promptCert from './assets/prompt-engg.png';
+import nlpCert from './assets/nlp.png';
+import aiAgentCert from './assets/ai-agent.png';
 import cloudCert from './assets/cloud-computing.png';
 import genAiCert from './assets/genai-simplilearn.png';
 import algoAchievement from './assets/algo.png';
-import unstopAchievement from './assets/Unstop_CEO.png';
+import unstopAchievement from './assets/unstop-ceo.png';
 import leetcodeAchievement from './assets/leetcode-2.png';
-import tataAchievement from './assets/TATA.png';
-import graphethonAchievement from './assets/Graphethon.png';
-
+import tataAchievement from './assets/tata.png';
+import graphethonAchievement from './assets/graphethon.png';
 const App: React.FC = () => {
   return (
     <>
