@@ -19,7 +19,6 @@ import nlpCert from './assets/NLP.png';
 import aiAgentCert from './assets/AI_Agent.png';
 import cloudCert from './assets/cloud-computing.png';
 import genAiCert from './assets/genai-simplilearn.png';
-import dubaiAchievement from './assets/Dubai_genai.png';
 import algoAchievement from './assets/algo.png';
 import unstopAchievement from './assets/Unstop_CEO.png';
 import leetcodeAchievement from './assets/leetcode-2.png';
