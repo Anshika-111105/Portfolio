@@ -539,11 +539,10 @@ footer {
 }
 
 /* Styles for the project section to display two blocks per row */
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
+#projects h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .project-item {
