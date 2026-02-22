@@ -538,56 +538,92 @@ footer {
   color: #666;
 }
 
-/* Styles for the project section to display two blocks per row */
-#projects h2 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 40px;
+/* ========================= */
+/*        PROJECTS SECTION   */
+/* ========================= */
+
+#projects {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
 }
 
+/* Heading */
+#projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+/* Container for project cards */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Individual project card */
 .project-item {
-  flex: 1 1 calc(50% - 20px); /* Two blocks per row */
+  flex: 1 1 calc(50% - 20px); /* Two per row */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect */
 .project-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
+/* Project Image */
 .project-image {
   width: 100%;
   max-width: 400px;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
+/* Project Title */
 .project-details h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 10px;
 }
 
+/* Project Description */
 .project-details p {
   font-size: 1rem;
   color: #666;
   margin-bottom: 10px;
 }
 
+/* Tech Stack List */
 .project-details ul {
   list-style-type: disc;
   padding-left: 20px;
   text-align: left;
+  color: #555;
+}
+
+/* ========================= */
+/*      RESPONSIVE DESIGN    */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .project-item {
+    flex: 1 1 100%; /* One per row on mobile */
+  }
 }
 /* ========================= */
 /* Achievements Section */
